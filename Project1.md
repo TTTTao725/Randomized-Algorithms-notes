@@ -1,3 +1,4 @@
+'''
 ## Exercise 1. 
 Define the random variable $X_{ij} = 1$ denoting that $h(x_i) = h(x_j)$, otherwise,  $X_{ij} = 0$. Then the total number of collisions $X$ after hashing $x_1, ..., x_n$ would be: $X = \sum_{i<j} X_{ij}$. Firstly, let's bound the expectation of $X$.
 $$\begin{aligned}
@@ -57,3 +58,5 @@ Now consider the number of $n_i$ that are equal to $1$, note that for $n_i \geq 
 When it is more than a half, then it's hard to analyze the relation between those  two. So in this case, let's consider the most extreme case such that all the $n_i = 1$, then $\sum_{i=0}^{m-1} \frac{n_{i}^{2}}{4} = \frac{m}{4}$, if we set $m = 4n$, then $\sum_{i=0}^{m-1} \frac{n_{i}^{2}}{4} \leq n$.
 ***
 ## Exercise 5
+
+'''
